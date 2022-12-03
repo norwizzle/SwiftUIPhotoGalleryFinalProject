@@ -261,6 +261,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC7929FA293C0E6800E5640E /* SearchView.swift in Sources */,
+<<<<<<< HEAD
+=======
+				DC7929D0293C09C500E5640E /* ContentView.swift in Sources */,
+>>>>>>> 92bc76c9c8c90211ba969439dc1843ffa9bc062e
 				DC7929CE293C09C500E5640E /* SwiftUIPhotoGalleryFinalProjectApp.swift in Sources */,
 				DC7929F8293C0E5C00E5640E /* GalleryMainView.swift in Sources */,
 			);
