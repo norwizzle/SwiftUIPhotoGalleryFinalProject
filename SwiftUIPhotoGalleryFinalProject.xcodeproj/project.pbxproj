@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		DC7929CE293C09C500E5640E /* SwiftUIPhotoGalleryFinalProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7929CD293C09C500E5640E /* SwiftUIPhotoGalleryFinalProjectApp.swift */; };
-		DC7929D0293C09C500E5640E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7929CF293C09C500E5640E /* ContentView.swift */; };
 		DC7929D2293C09C600E5640E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC7929D1293C09C600E5640E /* Assets.xcassets */; };
 		DC7929D5293C09C600E5640E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC7929D4293C09C600E5640E /* Preview Assets.xcassets */; };
 		DC7929DF293C09C600E5640E /* SwiftUIPhotoGalleryFinalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7929DE293C09C600E5640E /* SwiftUIPhotoGalleryFinalProjectTests.swift */; };
 		DC7929E9293C09C600E5640E /* SwiftUIPhotoGalleryFinalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7929E8293C09C600E5640E /* SwiftUIPhotoGalleryFinalProjectUITests.swift */; };
 		DC7929EB293C09C600E5640E /* SwiftUIPhotoGalleryFinalProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7929EA293C09C600E5640E /* SwiftUIPhotoGalleryFinalProjectUITestsLaunchTests.swift */; };
+		DC7929F8293C0E5C00E5640E /* GalleryMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7929F7293C0E5C00E5640E /* GalleryMainView.swift */; };
+		DC7929FA293C0E6800E5640E /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7929F9293C0E6800E5640E /* SearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		DC7929CA293C09C500E5640E /* SwiftUIPhotoGalleryFinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPhotoGalleryFinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC7929CD293C09C500E5640E /* SwiftUIPhotoGalleryFinalProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPhotoGalleryFinalProjectApp.swift; sourceTree = "<group>"; };
-		DC7929CF293C09C500E5640E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DC7929D1293C09C600E5640E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC7929D4293C09C600E5640E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DC7929DA293C09C600E5640E /* SwiftUIPhotoGalleryFinalProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIPhotoGalleryFinalProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +44,8 @@
 		DC7929E4293C09C600E5640E /* SwiftUIPhotoGalleryFinalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIPhotoGalleryFinalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC7929E8293C09C600E5640E /* SwiftUIPhotoGalleryFinalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPhotoGalleryFinalProjectUITests.swift; sourceTree = "<group>"; };
 		DC7929EA293C09C600E5640E /* SwiftUIPhotoGalleryFinalProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPhotoGalleryFinalProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DC7929F7293C0E5C00E5640E /* GalleryMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryMainView.swift; sourceTree = "<group>"; };
+		DC7929F9293C0E6800E5640E /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +97,10 @@
 			isa = PBXGroup;
 			children = (
 				DC7929CD293C09C500E5640E /* SwiftUIPhotoGalleryFinalProjectApp.swift */,
-				DC7929CF293C09C500E5640E /* ContentView.swift */,
 				DC7929D1293C09C600E5640E /* Assets.xcassets */,
 				DC7929D3293C09C600E5640E /* Preview Content */,
+				DC7929F7293C0E5C00E5640E /* GalleryMainView.swift */,
+				DC7929F9293C0E6800E5640E /* SearchView.swift */,
 			);
 			path = SwiftUIPhotoGalleryFinalProject;
 			sourceTree = "<group>";
@@ -257,8 +260,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC7929D0293C09C500E5640E /* ContentView.swift in Sources */,
+				DC7929FA293C0E6800E5640E /* SearchView.swift in Sources */,
 				DC7929CE293C09C500E5640E /* SwiftUIPhotoGalleryFinalProjectApp.swift in Sources */,
+				DC7929F8293C0E5C00E5640E /* GalleryMainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
