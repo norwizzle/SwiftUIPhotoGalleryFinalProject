@@ -14,6 +14,8 @@
 		DC7929DF293C09C600E5640E /* SwiftUIPhotoGalleryFinalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7929DE293C09C600E5640E /* SwiftUIPhotoGalleryFinalProjectTests.swift */; };
 		DC7929E9293C09C600E5640E /* SwiftUIPhotoGalleryFinalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7929E8293C09C600E5640E /* SwiftUIPhotoGalleryFinalProjectUITests.swift */; };
 		DC7929EB293C09C600E5640E /* SwiftUIPhotoGalleryFinalProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7929EA293C09C600E5640E /* SwiftUIPhotoGalleryFinalProjectUITestsLaunchTests.swift */; };
+		DC7929F8293C0E5C00E5640E /* GalleryMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7929F7293C0E5C00E5640E /* GalleryMainView.swift */; };
+		DC7929FA293C0E6800E5640E /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7929F9293C0E6800E5640E /* SearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		DC7929E4293C09C600E5640E /* SwiftUIPhotoGalleryFinalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIPhotoGalleryFinalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC7929E8293C09C600E5640E /* SwiftUIPhotoGalleryFinalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPhotoGalleryFinalProjectUITests.swift; sourceTree = "<group>"; };
 		DC7929EA293C09C600E5640E /* SwiftUIPhotoGalleryFinalProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPhotoGalleryFinalProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DC7929F7293C0E5C00E5640E /* GalleryMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryMainView.swift; sourceTree = "<group>"; };
+		DC7929F9293C0E6800E5640E /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				DC7929CF293C09C500E5640E /* ContentView.swift */,
 				DC7929D1293C09C600E5640E /* Assets.xcassets */,
 				DC7929D3293C09C600E5640E /* Preview Content */,
+				DC7929F7293C0E5C00E5640E /* GalleryMainView.swift */,
+				DC7929F9293C0E6800E5640E /* SearchView.swift */,
 			);
 			path = SwiftUIPhotoGalleryFinalProject;
 			sourceTree = "<group>";
@@ -257,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC7929FA293C0E6800E5640E /* SearchView.swift in Sources */,
 				DC7929D0293C09C500E5640E /* ContentView.swift in Sources */,
 				DC7929CE293C09C500E5640E /* SwiftUIPhotoGalleryFinalProjectApp.swift in Sources */,
+				DC7929F8293C0E5C00E5640E /* GalleryMainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
